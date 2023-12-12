@@ -1,82 +1,228 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<style>
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
+<body>
+    <div class="tiledBackground">
+
+  <header>
+    <h1>SWEJO PRASAD</h1>
+    <p>Above the Dream</p>
+    <nav>
+      <ul>
+        <a href="#about" style="color: whitesmoke;">About Me</a>
+        <a href="#education" style="color: whitesmoke;">Education</a>
+        <a href="#projects" style="color: whitesmoke;;">Projects</a>
+        <a href="#contact" style="color: whitesmoke;">Contact</a>
+        <a href="location" style="color: whitesmoke;">Location</a>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="img.jpeg" width="200" height="300" image">
+
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <article>
+        <h3>MCA</h3>
+        <p>Mar Athanasios College for Advanced Studies Tiruvalla</p>
+        <p>2022-2024</p>
+        <h1>QUALIFICATION</h1>
+                
+                <table width="1200" border="4" cellpadding="5" align="center" >
+                    <tr>
+                            <td>Education</td>
+                            <td>Percentage/CGPA</td>
+                            <td>Collage</td>
+                        </tr>
+                        <tr>
+                            <td>Bachelor Of Computer Application</td>
+                            <td>6.2 CGPA</td>
+                            <td>Kerala University</td>
+                        </tr>
+                        <tr>
+                            <td>Higher Secondary, Computer Science</td>
+                            <td>79.4%</td>
+                            <td>Devaswom Board Higher Secondary School,Cheriyanad</td>
+                        </tr>
+                        <tr>
+                            <td>High School</td>
+                            <td>75.0 CGPA</td>
+                            <td>Devaswom Board High School,Cheriyanad</td>
+                        </tr>
+                    </table>
+    </article>
+  </section>
+
+  <section id="projects">
+    <h2>PROJECTS</h2>
+    <article>
+      <h3>AI-RESUME ANALYZER</h3>
+      <h3>BIOMETRIC PRODUCT SALES AND SERVICES</h3>
+     
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Get in touch!</p>
+    <div>
+        <a href = "mailto: swejoswedha4@gmail.com" style="color: white;">swejoswedha4@gmail.com</a>
+      <h3><i class="fa fa-phone fa-align-center" >+918891591562</i></h3><br>
+    </div>
+      <div>
+        <h1>Social media:</h1>
+        <style>
+            .fa {
+              padding: 20px;
+              font-size: 30px;
+              width: 50px;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 2px;
+            }
+            .fa:hover {
+    opacity: 0.7;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
+.fa-facebook {
+  background: #3B5998;
   color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
 }
 
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
 
-.dropdown {
-    float: left;
-    overflow: hidden;
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
 
-button:hover, a:hover {
-  opacity: 0.7;
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
 }
 </style>
-</head>
-<body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
-<h2 style="text-align:center">BIO-DATA</h2>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
 
-<div class="card">
-    <center>
-  <img src="img.jpeg" alt="Swejo" style="width:50%">
-</center>
-  <h1>Swejo Prasad</h1>
-  <p> MCA STUDENT</p>
-  <p>MG University</p>
-  <div style="margin: 24px 0;">
- 
-    <a href="#"><i class="fa fa-instagram"></i></a> &nbsp; &nbsp;  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  &nbsp; &nbsp;
-    <a href="#"><i class="fa fa-facebook"></i></a> &nbsp; &nbsp;
-  </div>
-  <div class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-     Profile
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-      <a class="dropdown-item" href="./about.html">ABOUT</a>
-      <a class="dropdown-item" href="./skills.html">SKILLS</a>
-      <a class="dropdown-item" href="./qualification.html">QUALIFICATION</a>
-    </div>
-  </div>
-
-        
-  
 </div>
+    </ul>
+  </section>
 
+  <section id="location">
+    <h2>Location</h2>
+    <article>
+        <iframe src="https://maps.app.goo.gl/KWo93ZeU7XA6cJQ59 " width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
+  </section>
+    
+
+  <footer>
+    <p>&copy; SWEJO 2023</p>
+  </footer>
+    </div>
 </body>
 </html>

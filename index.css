@@ -1,6 +1,11 @@
-* {
-    margin: 20;
-    background-image:url ("img2.jpg" width="150" height="150" align="right");
-    background-color:goldenrod;
-    font-style:normal;
+.tiledbackground{
+    background-image:url(img2.jpg) ;
+    height: 100%;
+    
+}
+.skill{
+    text-align: center;
+}
+.qualification{
+    background-color: blanchedalmond;
 }
